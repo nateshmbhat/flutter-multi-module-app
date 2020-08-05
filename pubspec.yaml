@@ -1,0 +1,23 @@
+name: myapp
+description: A lifestyle application written in Flutter (with love).
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  core:
+    path: lib/core
+  onboarding:
+    path: lib/onboarding
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  build_runner:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
